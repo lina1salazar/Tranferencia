@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+body {
+  background: #f7f0ac;
+  background: linear-gradient(135deg, #f7f0ac, #acf7f0, #f0acf7);
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+h1,
+h4,
+h3 {
+  color: #224d49;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navegacion {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+}
+.navegacion ul {
+  display: flex;
+  padding: 10px 15px;
+  border-radius: 18px;
+  gap: 20px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+a {
+  text-decoration: none;
+  color: #224d49;
+}
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-color: #224d49;
+}
+.nombres {
+  margin: 0;
+  text-align: center;
+  font-size: 80px;
+}
+.apellidos {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+#sobre-mi .contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 80px;
+}
+#sobre-mi .foto img {
+  border-radius: 50% 0;
+}
+#sobre-mi .texto {
+  max-width: 450px;
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 45px 45px;
+  border-radius: 65px;
+}
+
+.tarjetas {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.tarjetas li {
+  background-color: rgba(255, 255, 255, 0.3);
+  max-width: 400px;
+  width: 400px;
+  border-radius: 25px;
+  padding: 20px;
+}
+.tarjetas a {
+  font-weight: 600;
+  font-size: 25px;
+}
+.tarjetas h4 {
+  margin: 10px 0px;
+}
+#habilidades .tarjetas li {
+  width: 80px;
+  text-align: center;
+}
+.seccion {
+  padding: 50px 0;
+}
+.seccion .titulo {
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  margin-bottom: 80px;
+}
+#contacto {
+  font-size: 20px;
+}
+#contacto ul{
+    text-align: center;
+}
+#contacto ul li{
+    margin-bottom: 10px;
+}
+footer {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  color: #224d49;
+  background: #f7f0ac;
+  background: linear-gradient(135deg, #f7f0ac, #acf7f0, #f0acf7);
+}
